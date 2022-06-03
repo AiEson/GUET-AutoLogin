@@ -65,12 +65,6 @@ if __name__ == '__main__':
     sign_parameter = read_file(F_URL)
     signed_in_title = '注销页'
 
-    #以下4个变量，可根据自己的需要，决定是否修改
-    already_icon = None
-    success_icon = None
-    false_icon = None
-    unknown_icon = None
-
     try:
         r = requests.get(login_IP,
                         timeout = 1)
